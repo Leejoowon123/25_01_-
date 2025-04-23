@@ -2,6 +2,12 @@
 - 문제 유형
     - 용어 설명, Practice에 대한 서술 문제
     - 코드 포맷스타일
+- 각 용어, 영어 full-name, 예시 암기
+
+- **Knowledge Base** or **Wiki 시스템**: 개발자 문서 작성 시, 정보에 대한 검색, 창조, 수정 등이 가능한 데이터베이스
+
+- **PGP Signature**: 다운로드 시 파일의 위변조 증명을 서명 및 검증하기 위해 사용되는 signature
+
 
 ## OSS란?
 - 공개적으로 액세스할 수 있게 설계되어 누구나 자유롭게 확인, 수정, 배포할 수 있는 코드
@@ -9,9 +15,11 @@
     + 어떠한 목적으로 프로그램 실행 가능
     + 프로그램을 학습, 수정 가능
     + 원본/수정된 프로그램의 복사본을 재배포 가능
-- 유사어: libre/Free/no charge software, FOSS, FLOSS
-- 반대어: proprietary(소유권)/closed software
+- **유사어**: libre/Free/no charge software, FOSS, FLOSS
+- **반대어**: proprietary(소유권)/closed software
 - **무조건 공짜 X**
+- **OSS 예시**: Python, Linux, PostgreSQL, Docker 등
+- **Closed Source Software 예시**: Mac OS, Adobe Photoshop, Windows OS 등
 
 ## 거의 대부분 OSS는 COTS(Commercial Off-the-Shelf)
 - FAR(Federal Acquisition Regulation)는 COTS와 NDI 선호
@@ -82,14 +90,17 @@
     + OS, 의존성, Binary 파일, Source 파일 제공, Stable Nightly build
     + **Stable**: 안정성, 신뢰성 보장된 최종 릴리스
     + **Nightly**: 개발 단계의 새로운 기능, 변경 사항을 포함한 시험 버전
-    + **LTS**;Long-term support: 장기간에 걸쳐 유지보수를 지원받는 소프트웨어 버전
+    + **<span style="color:#red">Long-term support(LTS)</span>**: 장기간에 걸쳐 유지보수를 지원받는 소프트웨어 버전
     + **PGP(Pretty Good Privacy) signature**: 데이터 출처 인증, 무결성 확인하는 디지털 서명
     + 디버그 및 새로운 특징 추가: **Nightly source snapshots 제공으로 충분 X**
-    + VCS(Version Control System) 사용해 관리: Github, Bitbucket 등
+    + **<span style="color:#red">VCS(Version Control System)</span>** 사용해 관리: Github, Bitbucket 등
     + **Well-maintained project**: 버그가 없는 프로젝트 X 
         - 버그 즉시 대응, 중복 버그 통합, 개선 요청/문서변경/작업 보류 등 다양
 
+※ **Alpha, Beta Release 특징 보기**
+
 ![alt text](./img/1_Development_Status.png)
+
 - **커뮤니케이션 채널**
     + 메일링 리스트, 홈페이지, 채팅룸, 포럼 등
 - **개발자 가이드라인(Codes of Conduct)**
@@ -103,7 +114,8 @@
     + 설치방법, 진단 테스트, 적절히 실행되었는지 확인
     + 튜토리얼 스타일에 예제 추가
     + 문서 미완성 부분 표기: **Open Requests for help**
-    + FAQ(Frequently Asked Questions) 유지
+    + **FAQ(Frequently Asked Questions) 유지**
+        - ※ 가이드 라인 보기 
         - 적은 수의 질문과 대답을 가진 템플릿이면 충분
         - 완벽함 X, **편리함**
     + Online website
@@ -114,10 +126,12 @@
 - **데모, 스크린샷, 비디오/예제 출력**
     + **<span style="color:#red">비디오 4분 이내</span>**
     + 사용자가 기대하는 즉각적인 결과물 선사 목적
-    + Watch our video(x) → Watch our 3 minute video(o)
+    + Watch our video(x) → Watch our 3 minute video(o) → 직관적으로 적기
 - **Hosting**
     + Github와 같은 협력 사이트부터 시작
     + Code repository, bug tracker, development wiki, links to development mailing lists
+    + **Bug traker 유사 기능**: Defect/Ticket/Issue/Request tracker
+        - 버그 트래커가 하는 역할을 생각하기
     + 다양한 오픈 소스 프로젝트 연결
 
 ## 라이선스 선택과 적용
@@ -171,11 +185,11 @@
 
 ### 라이선스 종류
 - **Permissive**
-    + Apache, BSD, MIT
+    + **Apache, BSD, MIT**
     + 사용 제한 ↓, 상용 소프트웨어에도 자유롭게 사용 가능
     + 상업적, 폐쇄형 프로젝트에서 사용 가능, 특허 문제 ↓
 - **Copyleft**
-    + GPLv3, LGPLv3, AGPLv3
+    + **GPLv3, LGPLv3, AGPLv3**
     + 코드 사용 시 일정 조건(e.g. 코드 공개, 동일 라이선스 적용 등) 충족해야 함
     + Open Source 강조, 코드 수정 후 배포할 경우 소스 코드 공개 필요할 수 있음
 
@@ -192,7 +206,7 @@
 ## 커뮤니티 어조 설정
 - 협력 분위기 설정
 - 그룹 내 행동 설정: Self-perpetuating
-- 체크 리스트
+- **<span style="color:#red">체크 리스트</span>**
     + **사적 토의 X**
         - 느리고 복잡하지만 개방형 토의는 롱런에 의해 수행되어야 함
     + **무례 = 무관용(Zero-tolerance 정책)**
@@ -200,15 +214,15 @@
         - 기술적인 부분, 코멘트 부분 분리
         - Meta-discussion을 만들지 않는 것이 중요
     + **Codes of Conduct**
-        - norms(규범), roles(규칙), responsibility(책임), 적절 프렉티스에 대해 개요 표현
+        - **<span style="color:#red">norms(규범), roles(규칙), responsibility(책임), Practies</span>**에 대해 개요 표현
     + **실용적, 명확한 코드 리뷰**
         - 목적: 사회적으로 긴밀해지기 위해, Commit에 많은 사람이 볼수록 버그 적어짐
         - Github의 Diff를 통해 변화간 차이 확인
     + **Be Open mind**
         - 최대한 일찍 소스 오픈
-        - 소스 오픈 시 체크리스트
+        - **<span style="color:#red">소스 오픈 시 체크리스트</span>**
             + pw, pw로 생성된 샘플 데이터
-            + 민감한 버그 정보
+            + 공공에 노출되면 안되는 민감한 버그 정보
             + 개인적인 코멘트 정보
             + 의존성 라이브러리로 인한 라이선스 이슈
             + 문서
@@ -241,7 +255,7 @@
         - $E_{ind}$ = 개별 팀원의 생산성
         - $O(N^{2})$ = 의사소통 및 관리 오버헤드
 
-- **온라인 커뮤니케이션 특징**
+- **<span style="color:#red">온라인 커뮤니케이션 특징</span>**
     + 동시성
     + 쓰기 → 커뮤니케이션 발생
     + 데이터에 대한 Labeling, Routing
@@ -326,11 +340,11 @@ Date:
 
 - Archiving
     + 모든 토론은 아카이브 되어야함
-    + 체크리스트
-        - Prompt Updating: 최근 게시된 포스트에 대한 아카이브와 게시된 포스트는 메일링 리스트에 보여져야 함
-        - Referential Stability: 정확한 URL, 접근 가능 여부 확인
-        - Thred Support: 관련 메시지 그룹에 연관된 개별 메시지 확인
-        - Searchability: 검색 기능 지원이 필수
+    + **<span style="color:#red">체크리스트</span>**
+        - **Prompt Updating**: 최근 게시된 포스트에 대한 아카이브와 게시된 포스트는 메일링 리스트에 보여져야 함
+        - **Referential Stability**: 정확한 URL, 접근 가능 여부 확인
+        - **Thred Support**: 관련 메시지 그룹에 연관된 개별 메시지 확인
+        - **Searchability**: 검색 기능 지원이 필수
 
 - Mailing List / Message Forum Software
     + Discourse: (https://discourse.org)

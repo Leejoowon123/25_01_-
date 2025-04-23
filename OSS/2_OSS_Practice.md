@@ -1,13 +1,41 @@
 # OSS 실습 내용
+- 활용법, 중요 코드들 보기
+
+# 추가
+- OSS  패키지 설치 업로드
+    + PyPI
+        - Python 패키지를 공유하고 배포하는 공식적인 중앙 Repository
+        - 전 세계 Python 개발자들이 만든 오픈 소스를 업로드하고, 다른 사람들이 설치할 수 있도록 하는 플랫폼
+        - 즉, Python 생태계의 Appstore 같은 느낌
+        
+```bash
+pip install git+https://github.com/psf/request.git # git 최신 버전 소스 직접 설치
+pip install requests # PyPI에서 request 패키지를 받아 설치
+# numpy, pandas, flask, sckit-learn 등이 PyPI에 있는 유명한 패키지들
+
+# 업로드
+# 패키지 설치
+pip install setuptools wheel twine
+
+# 패키지 빌드
+python setup.py sdist bdist_wheel
+
+# PyPI에 업로드
+twine upload dist/*
+
+```
 
 # Github(p30만)
 - git 명령어 사용법과 이해
 - working(Local; 작업 진행 공간) → add → Stage(임시 저장)→ commit → Repository(실제 저장 공간)→ push → hub(공유 공간; github)
 - 명령어
 ```bash
-git add .
-git commit -m "Message"
-git push -u origin main
+git add . # working Directory → Staging
+git commit -m "Message" # Staging → Commited files
+git push -u origin main # Commited files → git hub
+git fetch origin main # github(hub) → commit된 파일(working으로 받아온 것은 아님)
+git checkout # commit된 파일을 작업 디렉토리로 복원
+git restore # checkout과 동일하지만 최신 권고 방법 
 ```
 
 # Markdown
@@ -87,10 +115,11 @@ plot.show
 
 ![alt text](./img/2_Slack.png)
 
-- 기타 명령어
+- **기타 명령어**
     + /remind : 리마인더 설정
     + /poll : 투표 생성(플러그인 필요)
-
+    + @ : 멘션(특정 사용자 지칭)
+        - 예시: A사용자에게 "Message"보내기 → @A Message
 - 기타 기능
 
 |              채널              |            메시지 필드           |
@@ -138,7 +167,7 @@ except SlackApiError as e:
 
 ## 기본 이론
 - API: 서로 다른 소프트웨어끼리 소통할 수 있게 해주는 창구
-- **Wikifier**: 일반 텍스트 안에 있는 중요한 개념을 자동으로 찾아 Wikipedia의 항목과 연결해주는 API 서비스
+- **<span style="color:#red">Wikifier</span>**: 일반 텍스트 안에 있는 중요한 개념을 자동으로 찾아 Wikipedia의 항목과 연결해주는 API 서비스
 
 ```python
 #라이브러리 Import
