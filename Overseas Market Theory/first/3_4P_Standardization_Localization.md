@@ -22,7 +22,7 @@
 #### 4. **Technological**: R&D활동, 자동화, 기술혁신
 
 ### **SWOT**
-![alt text](./img/SWOT.png)
+![alt text](../img/SWOT.png)
 
 ## **STP → 4P**
 ### **STP**
@@ -35,7 +35,7 @@
     + 적정 크기와 성장 관련 특징들을 갖는 세그먼트들을 선정
 #### 3. **P(포지셔닝)**
     + 소비자에게 차별화시키기 위한 위치 선정
-![alt text](./img/STP.png)
+![alt text](../img/STP.png)
 
 ### **4P**
 #### 1. **Product(제품)** → **유형적, 무형적 요소 모두 포함**
@@ -94,8 +94,8 @@
 - **지속적인 경쟁우위를 누리기 위해 현지화 필요**
 
 ### **표준화 VS 현지화 간 선택**
-![alt text](./img/standard_n_local.png)
+![alt text](../img/standard_n_local.png)
 
 ### **추가** 
-![alt text](./img/add_standard_n_local.png)
+![alt text](../img/add_standard_n_local.png)
 

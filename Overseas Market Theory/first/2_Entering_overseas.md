@@ -1,6 +1,6 @@
 # **해외 시장 진입 방식 유형**
 
-![Summary](./img/Summary.png)
+![Summary](../img/Summary.png)
 
 ## **수출** - Low Risk Low Return
 - 국내에서 제품 생산 → 해외시장으로 이전
@@ -25,13 +25,13 @@
     + e.g. 폭스바겐의 중국 합작 투자<br>
 - **전략적 동기**: 시장 확장을 위한 기술이전
 
-![alt text](./img/Licensing.png)
+![alt text](../img/Licensing.png)
 
 ### **프랜차이징(Franchising)**
 - 소유나 경영면에서 이전은 없고 단지 **마케팅 및 관리 노하우**가 대상
 - 소유나 경영면에서 이전을 하면 FDI
 
-![alt text](./img/Franchising.png)
+![alt text](../img/Franchising.png)
 
 ## **해외 투자(직접 투자 or 간접 투자)** - High Risk High Return
 - **경영권 지배를 목적**에 따라 **해외간접투자**, **FDI**로 구분
@@ -41,7 +41,7 @@
     + **FII**: 직접적인 경영권 참여 X, 주식 투자와 채권 투자 성격
 
 ### **소유 지분에 따른 FDI 구분**
-![alt text](./img/Invest.png)
+![alt text](../img/Invest.png)
 
 - **단독 투자**와 **합작 투자**
 
@@ -76,12 +76,12 @@
     + 내부적 요인
         1. 제품요소
         2. 자원의 투입과 몰입 요소
-![Root](./img/Root.png)
+![Root](../img/Root.png)
 
 ## **러그만의 단순 모델**
 - 해외시장진입 대안을 선택하는데 시간 비용 절약 But 다양한 비용과 위험을 지나치게 단순화했다는 단점 존재
 
-![Rugman](./img/Rugman.png)
+![Rugman](../img/Rugman.png)
 
 ## **더닝의 모형**
 - 기업 특유 우위, 내부화 우위, 입지 특유 우위에 관한 **절충 이론** 주장
@@ -89,7 +89,7 @@
 - **OLI이론**: OI(Push), L(Pull)
 - **LOF를 상쇄하는 기업 특유 우위(독점적 우위)**가 있어야 해외 진출 가능
 
-![Dunning](./img/Dunnig.png)
+![Dunning](../img/Dunnig.png)
 
 # **글로벌 시장 진입 방식 결정 규칙**
 - Root: 글로벌 시장 지입 방식의 결정 규칙을 3가지로 나누어 구분
@@ -117,7 +117,7 @@
 ## **Kotler의 글로벌 시장 진입 전략**
 - 일본 기업들(도전자 입장)이 미국 시장 진입 or 미국 기업이 지배한 3국에 진입하고자 할 때 사용했던 전략
 
-![Kotler 전략](./img/Kotler.png)
+![Kotler 전략](../img/Kotler.png)
 
 ### **1. 정면 공격(하이트 진로 VS 오비 맥주)**
 - 경쟁기업의 강점을 정면에서 공격
