@@ -43,7 +43,7 @@
 
 |          PLC          |          제품 수명주기 별 특징         |   
 |:---------------------:|:------------------------------------:|
-| ![PLC](./img/PLC.png) | ![시그마프레스](./img/Sigmapress.png) |
+| ![PLC](../img/PLC.png) | ![시그마프레스](../img/Sigmapress.png) |
 
 # **국제 기업가 정신과 GVC**
 
@@ -57,18 +57,18 @@
 ### **LOF(Liability of Foreignness)** 
 글로벌 기업이 현지국에서 기업활동을 함으로써 발생되는 추가 비용
 
-![LOF](./img/LOF.png)
+![LOF](../img/LOF.png)
 
 ## **가치 사슬**
 여러 장소에 위치하는 상이한 기업을 포함하며 국경의 한계를 넘어 전 세계적으로 네트워크를 형성하며 확산됨
 
-![Value Chain](./img/ValueChain.png)
+![Value Chain](../img/ValueChain.png)
 
 ### **GVCs(Global Value Chain)**
 : 기업이 제품 또는 서비스를 생산하기 위해 원재료, 노동력 자본 등의 자원을 결합하는 과정에서 **부가가치가 창출**되는 것
 - 제조업이 고부가가치 → R&D or 부품생산 or 서비스에서 고부가가치로 전환
 
-![Smile Curve](./img/SmileCurve.png)
+![Smile Curve](../img/SmileCurve.png)
 
 - 예시: **미중무역분쟁의 시작**이 된 **중국 제조 2025**
     ```
@@ -79,7 +79,7 @@
 - 금융위기 이후 디레버리징(부채줄이기), 소비여력 축소, 국가간 소득 불균형 야기<br> (+ 신흥군의 기술 발전 가속화)
 - **GVC의 공급망 교란 발생** → 공급의 안정성이 재조명
 
-![GVCs](./img/GVCs.png)
+![GVCs](../img/GVCs.png)
 
 #### **RVC(Regional Value Chain)** - 중국 중심의 동아시아 지역 가치 사슬
 - 일본의 보복조치로 한중일 중심의 가치사슬 훼손

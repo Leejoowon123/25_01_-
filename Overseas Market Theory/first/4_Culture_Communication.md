@@ -52,10 +52,10 @@
 - **공통적** 이해를 추구
 - 즉, **문화**가 반영
 
-![alt text](./img/Communication_1.png)
+![alt text](../img/Communication_1.png)
 
 ### **해외 시장에서 문화 장애를 극복하는 의사소통**
-![alt text](./img/Communication_2.png)
+![alt text](../img/Communication_2.png)
 
 ## **miscommunication**
 
@@ -65,7 +65,7 @@
 - **지각의 패턴**: **문화적**으로 결정, 일관적이고 **부정확**
 - **지각 여과기의 왜곡효과**
 
-![alt text](./img/Misperception.png)
+![alt text](../img/Misperception.png)
 
 #### **고정 관념**
 1. 우리는 모두 같다 → **차이를 인정**

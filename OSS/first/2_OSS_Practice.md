@@ -113,7 +113,7 @@ plot.show
     + **Direct Messages(DM)**
         - One-off 대화
 
-![alt text](./img/2_Slack.png)
+![alt text](../img/2_Slack.png)
 
 - **기타 명령어**
     + /remind : 리마인더 설정
@@ -124,7 +124,7 @@ plot.show
 
 |              채널              |            메시지 필드           |
 |:------------------------------:|:------------------------------:|
-|![alt text](./img/2_Slack_1.png)|![alt text](./img/2_Slack_2.png)|
+|![alt text](../img/2_Slack_1.png)|![alt text](../img/2_Slack_2.png)|
 
 ## Slack API 설정
 - 사이트 접속: https://api.slack.com/apps

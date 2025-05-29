@@ -52,7 +52,7 @@
         + 많은 노력 → 많은 보상
 - Appearance Matter을 방문객(개발자, 사용자) 중심으로 생각
 - Chart.js 라이브러리 오픈 소스 프로젝트
-![alt text](./img/1_chart_js.png)
+![alt text](../img/1_chart_js.png)
 
 ## 시작
 1. 보유한 역량
@@ -99,7 +99,7 @@
 
 ※ **Alpha, Beta Release 특징 보기**
 
-![alt text](./img/1_Development_Status.png)
+![alt text](../img/1_Development_Status.png)
 
 - **커뮤니케이션 채널**
     + 메일링 리스트, 홈페이지, 채팅룸, 포럼 등
